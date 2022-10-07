@@ -1,4 +1,4 @@
-# Cryptography_Practise
+# Cryptography_Data_Security
 Contains code for the cryptography practise coding. The codes contain cryptography codes for symmetric and asymmetric cryptography.
 
 ![image](https://user-images.githubusercontent.com/68814937/194497417-dec71caf-4472-4d5d-bc0b-71adec30b7b7.png)
