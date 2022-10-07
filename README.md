@@ -31,5 +31,6 @@ Hash Functions: No key is used in this algorithm. A fixed-length hash value is c
 There are several crypto algorithms or as they are generally called, cipher. There ar several known ciphers such as DES and AES and the RSA and DSA algorithms too. SOme of these cipher can been cracked and can no longer be in use due to security reasons while others are still being tested to be used in mass network data communication in the near future.
 
 #Authentication and Authorization
+
 ![image](https://user-images.githubusercontent.com/68814937/194498245-c4f59222-e0be-4b49-b83d-a1ee06b5ec27.png)
 
