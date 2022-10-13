@@ -1,0 +1,23 @@
+
+# Assignment 04 on Cryptography
+
+
+Read and then summarize the research paper below:
+https://drive.google.com/file/d/1mvCoi5XYxXlBGJW-TRJ_YYI8DOFElqrI/view?usp=sharing
+
+The summarization should answer the following questions:
+What is data communication and data security
+Describe working mechanism of caesar cipher and transposition ciphers,
+What are hash functions and what are the properties of hash functions,
+Difference between stream and block cipher
+What is a digital signature algorithm
+What are the requirements of a digital signature algorithm
+
+The encryption algorithm for the caesar cipher is given with this assignment, make a suitable decryption algorithm,
+
+Take at least 10 username and 10 passwords and then store them inside a 2 separate lists. After that, make hashes of all of those passwords using the built-in hash function of python. Create a function that detects hash collisions among the present hashes. 
+
+One of the ways to prevent hash collision is to introduce a random value called with the password before you hash it. Introduce hashing in the same code of the previous question and show how hash collision has been prevented by making a function that detects the hash collision. 
+
+Write a function that can give output the total number of keys that are possible just by knowing the key length and the total number of possible choices per slot in the key. 
+
