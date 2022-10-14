@@ -2,7 +2,7 @@ import requests
 import random
 
 API_URL = "https://api-inference.huggingface.co/models/xlm-roberta-base"
-headers = {"Authorization": f"Bearer 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"}
+headers = {"Authorization": f"Bearer {Token_ID}"}
 
 def user_phase_input():
     input_phrase = input("Give me a random string of words: Put <mask> in the 3rd last word!")
