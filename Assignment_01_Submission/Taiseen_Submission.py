@@ -14,10 +14,7 @@ import sys
 
 '''
 Question 3. 
-Take at least 10 username & 10 passwords & 
-then store them inside in a 2 separate lists. 
-After that, make hashes of all of those passwords using the built-in hash function of python. 
-Create a function that detects hash collisions among the present hashes.
+
 '''
 
 total_hash_collisions = {}
@@ -85,10 +82,7 @@ print('Total number of password hash collision found :',
 
 '''
 Question 4. 
-One of the ways to prevent hash collision is to 
-introduce a random value called with the password before you hash it. 
-Introduce hashing in the same code of the previous question & show 
-how hash collision has been prevented by making a function that detects the hash collision.
+
 '''
 
 
@@ -113,8 +107,7 @@ print(json.dumps(user_name_and_hash_password, indent=2))
 
 '''
 Question 5. 
-Write a function that can give output the total number of keys that are possible
-just by knowing the key length & the total number of possible choices per slot in the key.
+
 '''
 
 
