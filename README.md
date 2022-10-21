@@ -36,7 +36,51 @@ There are several crypto algorithms or as they are generally called, cipher. The
 
 
 
+# SSL Protections
+For the encryption process the client uses the server’s public key which is used to encrypt all the data.
+Authenticity is provided via securing the right client and the server connection
+For client auth, the server uses a public key in the client certificate,
+If any of the steps fail then the handshake fails,
+SSL provides integrity of data by encryption of data flow by using hash algorithms,
+A combination of symmetric and asymmetric encryption is used to perverse the confidentiality of the information being transferred,
+During a SSL handshake, the client and the server will both agree to encryption algorithm and a private key, 
 
+# Sub-Protocols in SSL 
+Record layer Protocol → confidentiality and message integrity,
+Data is divided into fragments, the fragments comprises of the fragmented SHA code and the MD5 code,
+After the encryption of the data is done, the last SHA header is also appended to the data,
+Next is the 4 phase handshake protocol
+1 → Both the client and server sends hello packets to each other,
+2 → They exchange the certificates with the private and public key,
+3 → They reply to each other by the encryption algorithms and the secret keys,
+4 → The handshake is completed,
+Next is the Change Cipher Spec Protocol:
+For this protocol we use a part of the SSL Record protocol,
+Consists of a single message of one byte,
+Used to convey alert messages to the peer entity,
+
+
+SSL 2.0 and 3,0 has been deprecated, and the TLS was developed as a successor,
+
+# Deffie Hellman Key Exchange: 
+Need a secure channel for communication,
+Use the algorithm for exchange of keys over insecure channels,
+Uses a one way function,
+ Example already in codes,
+
+
+# Application of Deffie Hellman Key Exchange:
+Public Key Infrastructure,
+SSL/TLS handshake
+Secure Shell Access, used to access the system terminals,
+
+
+# Public Key Infrastructure Components:
+Certificate Authority → issue key
+Verification Authority, → Validates key
+Registration Authority, → request the registration auth for a signature,
+Sender,
+Recipient,
 
 ![image](https://user-images.githubusercontent.com/68814937/197285049-77e5cbc3-5d8a-4ead-aa6a-61c8527b8a6b.png)
 
